@@ -1,6 +1,6 @@
 import { create } from 'zustand';
 
-type View = 'dashboard' | 'employees' | 'payroll' | 'attendance' | 'performance' | 'ai-insights' | 'recruitment' | 'settings' | 'enterprise';
+type View = 'dashboard' | 'employees' | 'payroll' | 'attendance' | 'performance' | 'ai-insights' | 'recruitment' | 'settings' | 'enterprise' | 'python-analytics';
 
 interface AppState {
   currentView: View;

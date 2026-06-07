@@ -4,10 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --port=3000 --host=0.0.0.0",
+    "dev": "tsx run-dev.ts",
     "build": "vite build",
-    "preview": "vite preview",
-    "clean": "rm -rf dist",
+    "start": "python3 server.py 3000",
     "lint": "tsc --noEmit"
   },
   "dependencies": {

@@ -11,8 +11,7 @@ import {
   ChevronLeft,
   ChevronRight,
   ShieldCheck,
-  Building2,
-  Terminal
+  Building2
 } from 'lucide-react';
 import { useAppStore } from '../../store/useAppStore';
 import { cn } from '../../lib/utils';
@@ -26,7 +25,6 @@ const navItems = [
   { id: 'performance', label: 'Performance', icon: Trophy },
   { id: 'ai-insights', label: 'AI Insights', icon: BrainCircuit },
   { id: 'recruitment', label: 'Recruitment', icon: UserPlus },
-  { id: 'python-analytics', label: 'Python Sandbox', icon: Terminal },
 ];
 
 export const Sidebar = () => {

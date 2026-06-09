@@ -13,7 +13,6 @@ import { AttendanceView } from './components/dashboard/Attendance';
 import { PerformanceView } from './components/dashboard/Performance';
 import { SettingsView } from './components/dashboard/Settings';
 import { EnterpriseStatusView } from './components/dashboard/EnterpriseStatus';
-import { PythonAnalyticsView } from './components/dashboard/PythonAnalytics';
 import { useAppStore } from './store/useAppStore';
 
 export default function App() {
@@ -37,8 +36,6 @@ export default function App() {
         return <SettingsView />;
       case 'enterprise':
         return <EnterpriseStatusView />;
-      case 'python-analytics':
-        return <PythonAnalyticsView />;
       case 'recruitment':
         return (
           <div className="h-full flex flex-col items-center justify-center">
